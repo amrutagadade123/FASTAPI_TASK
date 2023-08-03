@@ -17,5 +17,4 @@ class User(Base):
         uselist=True,
     )
 
-    # New addition
     hashed_password = Column(String, nullable=False)
